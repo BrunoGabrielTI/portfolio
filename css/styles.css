@@ -996,6 +996,7 @@
     .bckgnd {
         background-position: 80% !important;
     }
+    
     .cmd{
         width: 330px;
         height: 215px;
@@ -1023,6 +1024,16 @@
         background-image: none;
     
     }
+    
+}
+
+@media (max-width: 400px){ 
+   .transicao{
+    font-size: 0.8em !important;
+   }
+   .img-projeto img{
+    width: 255px
+   }
     
 }
 
